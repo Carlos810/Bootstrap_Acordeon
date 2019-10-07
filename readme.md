@@ -6,4 +6,4 @@
 
 - La carpeta formulario contiene elementos que integran este componente por clases o secciones.
 
-- La carpeta "grid" tiene diveros acomodos que se pueden realizar con la grilla de este framework.
+- La carpeta "grid" tiene diversos acomodos que se pueden realizar con la grilla de este framework.
