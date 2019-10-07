@@ -74,6 +74,6 @@ $RECYCLE.BIN/
 # Archivos en General
 
 *.jpeg
-
+*notas.txt
 
 # End of https://www.gitignore.io/api/linux,macos,windows

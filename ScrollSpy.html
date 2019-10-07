@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>Scroll Spy</title>
+    <style>
+        body{
+            position: relative;
+            /* padding-top: 56px; */
+        }
+        .fm-nav a{
+            color:#fff;
+            padding: 15px;
+        }
+        .fm-nav .active, .fm-nav a:hover{
+            background: rgba(255, 255, 255, 0.1)
+        }
+        .seccion{
+            margin-bottom: 1000px;
+        }
+        .seccion .columna{
+            padding-top: 100px;
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target="#fm-nav">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <div id="fm-nav">
+                    <ul class="fm-nav nav fixed-top navbar-inverse bg-primary">
+                        <li class="nav-item">
+                            <a href="#seccion1" class="nav-link">Seccion # 1</a>
+                        </li>
+                        <li>
+                            <a href="#seccion2" class="nav-link">Seccion # 2</a>
+                        </li>
+                        <li>
+                            <a href="#seccion3" class="nav-link">Seccion # 3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row seccion" id="seccion1">
+            <div class="col-12 columna">             
+                    <h2>Seccion 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vel, soluta neque deleniti voluptates libero deserunt, esse perspiciatis, quibusdam in impedit cum nostrum aliquam architecto commodi iusto quae enim recusandae aspernatur ratione atque. Impedit itaque corporis quia, iste tenetur similique aperiam! Minima eveniet cumque dolore et sequi 
+            </div>
+        </div>
+
+        <div class="row seccion" id="seccion2">
+            <div class="col-12 columna">             
+                    <h2>Seccion 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vel, soluta neque deleniti voluptates libero deserunt, esse perspiciatis, quibusdam in impedit cum nostrum aliquam architecto commodi iusto quae enim recusandae aspernatur ratione atque. Impedit itaque corporis quia, iste tenetur similique aperiam! Minima eveniet cumque dolore et sequi 
+            </div>
+        </div>
+        
+        <div class="row seccion" id="seccion3">
+            <div class="col-12 columna">             
+                    <h2>Seccion 3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vel, soluta neque deleniti voluptates libero deserunt, esse perspiciatis, quibusdam in impedit cum nostrum aliquam architecto commodi iusto quae enim recusandae aspernatur ratione atque. Impedit itaque corporis quia, iste tenetur similique aperiam! Minima eveniet cumque dolore et sequi 
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+<script src="bootstrap/js/jquery-3.4.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
