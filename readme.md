@@ -1,9 +1,9 @@
-# Mi sitio WEB con bootstrap 
+# Acordeon Bootstrap
 
-- Hacer mi sitio ResponsiveDesign, utilizando la grilla del framework más popular "Bootstrap".
+- En la raíz de la carpeta vienen las muestras de los componentes de Bootstrap.
 
-- Incluir JS para ofrecer un comportamiento fluido y que cumpla con los estandares de la W3C. (Jquery + JavaScript Vanilla)
+- En la carpeta "practicas" se hace uso específico de la grilla y componentes para crear/emular sitios reales que son         Responsive-Design.
 
-- Incoporar Sass para el manejo de las hojas en cascada haciendo fácil el escalamiento y mantenimiento sel sitio.
+- La carpeta formulario contiene elementos que integran este componente por clases o secciones.
 
-- Dentro de 12 meses se hará una actualización este sitio para ser recreado con React JS y finalmente ser lanzado a producción.
+- La carpeta "grid" tiene diveros acomodos que se pueden realizar con la grilla de este framework.
